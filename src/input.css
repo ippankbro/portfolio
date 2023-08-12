@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-list ul a {
+  @apply font-semibold uppercase my-1 mx-1 xl:w-28 btn btn-outline  btn-block  btn-sm;
+}
+
+.costum-card {
+  @apply max-w-md;
+}
